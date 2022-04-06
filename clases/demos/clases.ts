@@ -4,7 +4,7 @@ class Persona {
     protected email: string
     constructor(nombre: string, edad: number, email: string) {
         this.nombre = nombre;
-        this.edad = edadW
+        this.edad = edad
         this.email = email
     }
     getEdad () {
@@ -26,7 +26,7 @@ class Estudiante extends Persona {
 
 let mati = new Persona('matias', 29, 'mati@mail.com')
 let fede = new Persona('fede', 29, 'fede@mail.com')
-fede.email
+fede.getEdad()
 mati.nombre //publico, lo puedo acceder desde fuera de la clase
 mati.getEdad()
 export {}

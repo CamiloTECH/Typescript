@@ -30,4 +30,4 @@ function merge<U extends object, V extends object>(obj1: U, obj2: V) {
   */
   
   merge({name: "Franco"}, {age: 25});
-  merge({name: "Franco"}, 25); // no me advierte
+  merge({name: "Franco"}, {age:25}); // no me advierte

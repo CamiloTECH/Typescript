@@ -28,9 +28,9 @@ enum userActions {
 
 userActions.fetchUser // comparar en un switch en el reducer de redux
 
-verdadero = 2
+verdadero = true
 
-nombre = 29 //error antes de la compilacion
+nombre = "camilo" //error antes de la compilacion
 
 // cannot read property map of undefined
 let objeto = {
